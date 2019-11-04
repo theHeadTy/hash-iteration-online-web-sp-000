@@ -11,6 +11,7 @@ def age_appropriate_birthday(kids)
     else
       puts "Happy Birthday #{key}! You are now #{value} years old!"
     end
+  end
 end
 
 kids = {
