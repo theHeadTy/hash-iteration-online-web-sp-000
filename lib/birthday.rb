@@ -6,6 +6,7 @@ end
 
 def age_appropriate_birthday(kids)
   kids.reject { |key, value| value > 12 }
+end
 
 kids = {
   'Timmy' => 9,
