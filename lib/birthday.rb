@@ -4,6 +4,8 @@ def happy_birthday(kids)
   end
 end
 
+def age_appropriate_
+
 happy_birthday({
     'Timmy' => 9,
     'Sarah' => 6,
