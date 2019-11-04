@@ -4,7 +4,8 @@ def happy_birthday(kids)
   end
 end
 
-def age_appropriate_
+def age_appropriate_birthday(kids)
+  kids.reject { |key, value| value > 12 }
 
 happy_birthday({
     'Timmy' => 9,
@@ -12,3 +13,4 @@ happy_birthday({
     'Amanda' => 27
 })
 
+age_appropriate_birthday()
